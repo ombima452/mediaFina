@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro %}
+#{ %import'articles.html' as article% }
+
+{% block content%}
+<div class="container">
+		
+        <h3 style="text-align: center"> Top Business News Sources</h3>
+
+        {{ macro.displaySourceList(sources)}}
+        
+        <!-- <h3 style="text-align: center"> Top Technology News Sources</h3>
+
+        {{ macro.displaySourceList(technology_sources)}}
+       
+        <h3 style="text-align: center"> Top Entertainment News Sources</h3>
+
+        {{ macro.displaySourceList(entertainment_sources)}}
+            
+        <h3 style="text-align: center"> Top Sports News Sources</h3>
+
+        {{ macro.displaySourceList(sports_sources)}} -->
+	
+</div>
+
+{%endblock%}
