@@ -1,13 +1,15 @@
-** mediaFina
+# mediaFina
+
 This project was done using Python 3.6 and Flask.
 
-* AUTHOR
+## AUTHOR
+
 Christine Ombima
 
-* DESCRIPTION
+## DESCRIPTION
 This is a Python-Flask Application that makes use of NEWS API to fetch Latest & Trending News from Various sources.
 
-* User Story
+### User Story
 
 Users can see various news sources on the homepage of the application.
 
@@ -17,7 +19,7 @@ Users can see image, description and the time a news was created.
 
 Users can click on an article and read the full article on the source website.
 
-* SETUP/INSTALLATION.
+## SETUP/INSTALLATION.
 
 Python3.6
 
@@ -46,7 +48,7 @@ On your bash terminal Run the command:-
 
 -github-username: ombima452
 
-* License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Copyright (c) 2019. Christine Ombima
